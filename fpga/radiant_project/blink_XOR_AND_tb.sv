@@ -2,7 +2,7 @@
 `default_nettype none
 `define N_TV 8
 
-module blink_XOR_AND_testbranch();
+module blink_XOR_AND_tb();
  // Set up test signals
  logic clk, reset, counter, int_osc;
  logic [3:0] s;
